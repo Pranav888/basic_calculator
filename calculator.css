@@ -1,0 +1,44 @@
+
+.screen {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(175, 175, 175);
+}
+
+.calculator {
+    width: 50%;
+    display: grid;
+    grid-gap: 0.5em;
+    background: rgb(247, 247, 247);
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.numbers div {
+    background: lightblue;
+    padding: 0.5em;
+}
+
+.operators {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.operators div {
+    background: lightpink;
+    padding: 0.5em;
+}
